@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - the printf prints the sentence
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {

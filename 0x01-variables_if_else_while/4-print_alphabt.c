@@ -14,12 +14,7 @@ int main(void)
 		{
 			putchar(c);
 		}
-		else
-		{
-			continue;
-		}
 		c++;
-	}
 
 	putchar('\n');
 	return (0);

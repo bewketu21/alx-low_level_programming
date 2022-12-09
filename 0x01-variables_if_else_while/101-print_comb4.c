@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (right = center + 1; right <= 57; right++)
 			{
-				if ((left == 55) && (center == left + 1) && (right == center + 1)
+				if ((left == 55) && (center == left + 1) && (right == center + 1))
 				{
 					break;
 				}
@@ -25,6 +25,7 @@ int main(void)
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: prints sigle digit numbers\
+ * Description: prints sigle digit numbers
  * Return: 0
  */
 int main(void)

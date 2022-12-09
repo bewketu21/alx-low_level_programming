@@ -4,7 +4,6 @@
 /**
  * main - to check whether the number is positive or negative
  * Description: get a random number and print the number
- * @n: an integer number
  *Return: 0
  */
 int main(void)

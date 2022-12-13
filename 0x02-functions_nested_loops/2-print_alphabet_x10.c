@@ -10,6 +10,7 @@ void print_alphabet_x10(void)
 	{
 		putchar(c);
 	}
+	putchar('\n');	
 }
 /**
  * main - main block
@@ -27,7 +28,6 @@ int main(void)
 	print_alphabet_x10();
 	print_alphabet_x10();
 	print_alphabet_x10();
-	putchar('\n');
 
 	return (0);
 }

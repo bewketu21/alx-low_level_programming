@@ -9,12 +9,11 @@ int _abs(int n)
 
 	if (n >= 0)
 	{
-		printf("%d\n", n);
+		return (n);
 	}
 	else
 	{
 		n = n * -1;
-		printf("%d\n", n);
+		return (n);
 	}
-	return (0);
 }

@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * main - main blockDescrip
  * tion: print 0-putchar.c
@@ -11,10 +11,10 @@ int main(void)
 
 	for (a = 0; a <= 7; a++)
 	{
-		putchar(pr[a]);
+		printf("%c", pr[a]);
 	}
 
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 }

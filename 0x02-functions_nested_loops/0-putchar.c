@@ -11,10 +11,10 @@ int main(void)
 
 	for (a = 0; a <= 7; a++)
 	{
-		printf("%c", pr[a]);
+		_putchar(pr[a]);
 	}
 
-	printf('\n');
+	_putchar('\n');
 
 	return (0);
 }

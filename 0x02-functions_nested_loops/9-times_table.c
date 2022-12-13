@@ -19,8 +19,7 @@ void times_table(void)
 			}
 			else
 			{
-				printf("%2d", a);
-				printf(",");
+				printf("%2d, ", a);
 			}
 		}
 	}

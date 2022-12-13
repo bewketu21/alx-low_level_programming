@@ -6,16 +6,15 @@
  */
 int _abs(int n)
 {
-	int abs;
 
 	if (n >= 0)
 	{
-		_putchar("%d", n);
+		printf("%d", n);
 	}
 	else
 	{
-		abs = n * -1;
-		_putchar("%d", abs);
+		n = n * -1;
+		printf("%d", n);
 	}
-	_putchar('\n');
+	printf('\n');
 }

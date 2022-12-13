@@ -10,11 +10,12 @@ int _abs(int n)
 
 	if (n >= 0)
 	{
-		printf("%d", n);
+		_putchar("%d", n);
 	}
 	else
 	{
 		abs = n * -1;
-		printf("%d", abs);
+		_putchar("%d", abs);
 	}
+	_putchar('\n');
 }

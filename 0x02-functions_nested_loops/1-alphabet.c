@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
- * print_alphabet - prints the alphabet
- * main - main block`
- * Description - prit all the alpahbet letters in lowercase
- * Return: 0
+ * print_alphabet - print the alphabet
  */
 void print_alphabet(void)
 {
@@ -15,7 +12,10 @@ void print_alphabet(void)
 		c++;
 	}
 }
-
+/**
+ * main - main block
+ * Return: 0
+ */
 int main(void)
 {
 	print_alphabet();

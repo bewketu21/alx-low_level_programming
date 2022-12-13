@@ -1,7 +1,7 @@
-#include "main.h"
+#include"main.h"
 /**
- * main - main block
- * Description: print 0-putchar.c
+ * main - main blockDescrip
+ * tion: print 0-putchar.c
  * Return: 0
  */
 int main(void)

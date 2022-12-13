@@ -15,11 +15,11 @@ void times_table(void)
 			printf("%d", a);
 			if (j == 9)
 			{
-				printf("\n)";
+				printf("\n");
 			}
 			else
 			{
-				printf(", ";)
+				printf(", ");
 			}
 		}
 	}

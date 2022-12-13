@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * print_alphabet - prints the alphabet
+ * main - main block`
  * Description - prit all the alpahbet letters in lowercase
  * Return: 0
  */

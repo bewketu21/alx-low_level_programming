@@ -10,10 +10,9 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 23; i++)
 	{
-		printf("%d", i);
 		for (j = 0; j <= 59; j++)
 		{
-			printf(":%d\n", j);
+			printf("%d:%d\n", i, j);
 		}
 	}
 }

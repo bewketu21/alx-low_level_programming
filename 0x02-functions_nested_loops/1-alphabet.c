@@ -4,22 +4,11 @@
  */
 void print_alphabet(void)
 {
-	char c = 'a';
+	char c;
 
-	while (c <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
-		c++;
+		_putchar(c);
 	}
-}
-/**
- * main - main block
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-
-	return (0);
+	_putchar('\n');
 }

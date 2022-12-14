@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * postitive_or_negative - prints 
-/**
- * main - main block
+ * postitive_or_negative - prints
+ * @i: an integer i
  * Return: 0
  */
 void postitive_or_negative(int i)

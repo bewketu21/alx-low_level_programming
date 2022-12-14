@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * times_table - prints time table of n
- * @n: input
+ * print_time_table - prints the time table
+ * @n:integer number
  */
 void print_times_table(int n)
 {
@@ -36,6 +36,7 @@ void print_times_table(int n)
 				{
 					_putchar((a / 10) + 48);
 				}
+				_putchar((a % 10) + 48);
 			}
 			_putchar('\n');
 		}

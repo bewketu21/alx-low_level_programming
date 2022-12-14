@@ -7,7 +7,7 @@
 int main(void)
 {
 	int c;
-	unsigned long f1 = 0; f2 = 1, T;
+	unsigned long f1 = 0; f2 = 1; T;
 
 	for (c = 0; c < 50; c++)
 	{
@@ -24,6 +24,7 @@ int main(void)
 		else
 		{
 			printf(", ");
+		}
 	}
 	return (0);
 }

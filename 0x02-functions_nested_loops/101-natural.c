@@ -8,7 +8,7 @@ int main(void)
 {
 	int Tot, n;
 
-	for (n =0; n < 1024; n++)
+	for (n = 0; n < 1024; n++)
 	{
 		if ((n % 3 == 0) || (n % 5 == 0))
 		{
@@ -17,5 +17,5 @@ int main(void)
 	}
 	printf("%d\n", Tot);
 
-	return(0);
+	return (0);
 }

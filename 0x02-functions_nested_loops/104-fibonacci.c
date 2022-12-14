@@ -42,7 +42,7 @@ int main(void)
 			printf("%d", 0);
 			--a;
 		}
-		printf("lu", b);
+		printf("%lu", b);
 
 		T = (b + d) % max;
 		sum = bo + d0 + (b + d) / max;

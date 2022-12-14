@@ -20,3 +20,15 @@ void postitive_or_negative(int i)
 
 	return (0);
 }
+/**
+ * main - main block
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+
+	positive_or_negative(int i);
+
+	return (0);
+}

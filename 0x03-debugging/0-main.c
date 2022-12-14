@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <time.h>
 /**
  * postitive_or_negative - prints 
 /**
@@ -8,6 +10,9 @@
 void postitive_or_negative(int i)
 {
 	int i;
+
+	srand(time(0));
+	i = rand() - RAND_MAX / 2;
 
 	if (i > 0)
 		printf("%d is positive\n", i);

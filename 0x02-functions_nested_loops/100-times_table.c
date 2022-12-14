@@ -19,22 +19,22 @@ void print_times_table(int n)
 
 				a = b * c;
 
-				if (c <= 9)
+				if (a <= 9)
 				{
 					_putchar(' ');
 				}
-				if (c <= 99)
+				if (a <= 99)
 				{
 					_putchar(' ');
 				}
-				if (c >= 100)
+				if (a >= 100)
 				{
-					_putchar((c / 100) + 48);
-					_putchar((c / 10) % 10 + 48);
+					_putchar((a / 100) + 48);
+					_putchar((a / 10) % 10 + 48);
 				}
-				else if (c <= 99 && c >= 10)
+				else if (a <= 99 && a >= 10)
 				{
-					_putchar((c / 10) + 48);
+					_putchar((a / 10) + 48);
 				}
 			}
 			_putchar('\n');

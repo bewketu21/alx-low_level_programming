@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <time.h>
 /**
  * postitive_or_negative - prints
  * @i: an integer i

@@ -32,7 +32,7 @@ void largest_prime_factor(long int num)
 		num = num / 2;
 	}
 
-	for (p = 3; p <= sqrt_of_number; p = p + 2)
+	for (p = 3; p <= sqrt_of_number(num); p = p + 2)
 	{
 		while (num % p == 0)
 		{

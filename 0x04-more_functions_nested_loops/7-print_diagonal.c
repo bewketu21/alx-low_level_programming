@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - draws a diagonal line on the terminal
+ * @n: an integer number
  * Return: 0
  */
 void print_diagonal(int n)
@@ -18,6 +19,7 @@ void print_diagonal(int n)
 		_putchar('\n');
 		c++;
 	}
+
 	if (c <= 0)
 		_putchar('\n');
 }

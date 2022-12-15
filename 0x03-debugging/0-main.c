@@ -12,6 +12,7 @@ void positive_or_negative(int i)
 
 	srand(time(0));
 	n = i;
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{

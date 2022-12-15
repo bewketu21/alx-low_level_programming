@@ -5,15 +5,14 @@
  */
 void print_most_numbers(void)
 {
-	int c = 0;
+	int c;
 
-	while (c <= 9)
+	for (c = 0; c <= 9; c++)
 	{
 		if (c != 2 || c != 4)
 		{
 			_putchar(c + 48);
 		}
-		c++;
 	}
 	_putchar('\n');
 }

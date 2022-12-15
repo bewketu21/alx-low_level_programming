@@ -10,7 +10,7 @@ void print_triangle(int size);
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 	else
 	{
@@ -20,14 +20,14 @@ void print_triangle(int size);
 			{
 				if ((h + b) <= size)
 				{
-					_putchar(' ');
+					putchar(' ');
 				}
 				else
 				{
-					_putchar('#');
+					putchar('#');
 				}
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }

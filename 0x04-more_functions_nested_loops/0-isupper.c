@@ -5,19 +5,12 @@
  */
 int _isupper(int c)
 {
-	for (c >= 65)
+	if (c >= 65 && c <= 90)
 	{
-		for (c <= 90)
-		{
-			return (1);
-		}
+		return (1);
 	}
-
-	for (c >= 97)
+	else
 	{
-		for (c <= 122)
-		{
-			return (0);
-		}
+		return (0);
 	}
 }

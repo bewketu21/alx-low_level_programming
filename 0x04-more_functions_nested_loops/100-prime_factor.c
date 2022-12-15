@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * double sqrt_of_number - find square root
+ * sqrt_of_number - find square root
  * @a: an integer
  * Return: square root of number a
  */
@@ -19,7 +19,7 @@ double sqrt_of_number(double a)
 	return (sqrt);
 }
 /**
- * largest_prime_factor - inds and prints the largest prime factor of 
+ * largest_prime_factor - inds and prints the largest prime factor of
  * the number 612852475143
  * @num: number
  */

@@ -15,7 +15,7 @@ void print_diagonal(int n)
 		}
 
 		_putchar('\\');
-		_putchar('\n);
+		_putchar('\n');
 		c++;
 	}
 	if (c <= 0)

@@ -18,6 +18,9 @@ int _atoi(char *s)
 	unsigned int num, a;
 	int b;
 
+	b = 1;
+	num = 0;
+
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		if (_numerical(s[a]))

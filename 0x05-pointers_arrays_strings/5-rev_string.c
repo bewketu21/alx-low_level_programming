@@ -34,4 +34,4 @@ void rev_string(char *s)
 		begin_c++;
 		end_c--;
 	}
-}	
+}

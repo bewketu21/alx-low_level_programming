@@ -15,10 +15,10 @@ int _numerical(unsigned int a)
  */
 int _atoi(char *s)
 {
-	unsigned int num; a;
+	unsigned int num, a;
 	int b;
 
-	for (a = 0; s[a]; != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
 		if (_numerical(s[a]))
 		{

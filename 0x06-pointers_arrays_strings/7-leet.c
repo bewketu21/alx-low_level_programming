@@ -18,7 +18,7 @@ char *leet(char *k)
 		{
 			if (k[b] == d[a] || k[b] == e[a])
 			{
-				k[a] = f[a];
+				k[b] = f[a];
 				break;
 			}
 		}

@@ -14,7 +14,8 @@ char *rot13(char *l)
 	{
 		for (b = 0; b < 54; b++)
 		{
-			if (((l[a] <= 'z' && l[a] >= 'a') || (l[a] <= 'Z' && l[a] >= 'A')) && l[a] == in[b])
+			if (((l[a] <= 'z' && l[a] >= 'a') ||
+						(l[a] <= 'Z' && l[a] >= 'A')) && l[a] == in[b])
 			{
 				l[a] = ou[b];
 				break;

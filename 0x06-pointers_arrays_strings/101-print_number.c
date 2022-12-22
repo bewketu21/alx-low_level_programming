@@ -15,10 +15,11 @@ void print_number(int n)
 	}
 
 	for (b = 0; n / a > 9; b++, a *= 10)
-		;
-	for (; a >= 1; n %= a, a /= 10)
 	{
-		c = n / a;
-		_putchar('0' + c);
+		for (; a >= 1; n %= a, a /= 10)
+		{
+			c = n / a;
+			_putchar('0' + c);
+		}
 	}
 }

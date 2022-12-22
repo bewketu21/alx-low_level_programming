@@ -12,7 +12,7 @@ char *rot13(char *l)
 
 	for (a = 0; l[a] != '\0'; a++)
 	{
-		if (b = 0; b < 54; b++)
+		for (b = 0; b < 54; b++)
 		{
 			if (((l[a] <= 'z' && l[a] >= 'a') || (l[a] <= 'Z' && l[a] >= 'A')) && l[a] == in[b])
 			{

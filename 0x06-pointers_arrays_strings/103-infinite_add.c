@@ -14,5 +14,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	v = atoi(n1);
 	m = atoi(n2);
 
-	sum = a + b;
+	sum = v + m;
 }

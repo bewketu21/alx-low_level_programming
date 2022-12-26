@@ -13,14 +13,14 @@ void print_number(int n)
 	{
 		_putchar('-');
 		last_digit = (char) ('0' - (n % 10));
-		n = -1 * n /10;
+		n = -1 * n / 10;
 	}
 	else
 	{
 		last_digit = (char) (n % 10 + '0');
 		n = n / 10;
 	}
-	
+
 	reverse = 0;
 
 	while (n > 0)

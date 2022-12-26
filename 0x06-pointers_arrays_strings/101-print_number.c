@@ -6,17 +6,18 @@
  */
 void print_number(int n)
 {
-	int last_digit, reverse, c;
+	int last_digit, reverse;
+	char c;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		last_digit = ('0' - (n % 10));
+		last_digit = (char) ('0' - (n % 10));
 		n = -1 * n /10;
 	}
 	else
 	{
-		last_digit = (n % 10 + '0');
+		last_digit = (char) (n % 10 + '0');
 		n = n / 10;
 	}
 	
@@ -30,8 +31,8 @@ void print_number(int n)
 
 	while (reverse > 0)
 	{
-		c = ((reverse % 10) + '0');
-		_putchar(c + 48);
+		c = (char) ((reverse % 10) + '0');
+		_putchar(c);
 		reverse = reverse / 10;
 	}
 	_putchar(last_digit);
